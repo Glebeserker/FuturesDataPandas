@@ -182,7 +182,7 @@ def run_loop():
 	app.run()
 # calling up IBAPI class instance and connecting the app to local host server
 app = IBapi()
-app.connect('127.0.0.1', 7497, 136)
+app.connect('127.0.0.1', 7497, 1)
 app.nextOrderId = 0
 
 
